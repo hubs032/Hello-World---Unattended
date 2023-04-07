@@ -1,5 +1,5 @@
 {
-  "name": "Hello World_Unattended",
+  "name": "Hello World_Unattended_Windows",
   "description": "Blank Process",
   "main": "Main.xaml",
   "dependencies": {
@@ -25,7 +25,8 @@
     "executionType": "Workflow",
     "readyForPiP": false,
     "startsInPiP": false,
-    "mustRestoreAllDependencies": true
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
   },
   "designOptions": {
     "projectProfile": "Developement",
@@ -52,5 +53,5 @@
   "isTemplate": false,
   "templateProjectData": {},
   "publishData": {},
-  "targetFramework": "Legacy"
+  "targetFramework": "Windows"
 }
